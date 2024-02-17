@@ -1,0 +1,31 @@
+---- Pseudocodigo para la búsqueda binaria ----
+  Función busqBinaria(lista, objetivo)
+    inicio = 0
+    final = tamaño(lista) - 1
+    
+    mientras inicio <= finalizara proceso
+        centro = (inicio + final) / 2
+        si lista[centro] es igual a objetivo entonces
+            retornar centro
+        si lista[centro] < objetivo entonces
+            inicio = centro + 1
+        sino
+            final = centro - 1
+    fin mientras
+    
+    retornar -1
+Fin de la función busqBinaria
+---- Fin del pseudocódigo de la búsqueda binaria ---- 
+
+
+
+---- Pseudocodigo para la búsqueda secuencial ----
+    Función busqSecuancial(lista, objetivo)
+        para cada ítem en lista hacer
+            si ítem es igual a objetivo entonces
+                retornar índice del ítem
+        fin para
+        
+        retornar el -1
+    Fin de la función búsquedaLineal
+---- Fin del pseudocódigo de la búsqueda lineal ----
